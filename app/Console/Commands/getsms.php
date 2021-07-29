@@ -78,7 +78,7 @@ class getsms extends Command
         foreach (simplexml_load_string($content)->Messages->Message as $item) {
             if ($item->Phone == '+6281295369449') {
                 if(strlen($item->Content) > 2){
-                    $response = Http::post('http://localhost:8000/api/lantern', [
+                    $response = Http::post('https://dev.cakrawala.id/api/lantern', [
                         'device_imei' => (String) $item->Phone,
                         'latitude' => $this->convertDMSToDecimal(str_replace('*',' ',substr(explode(' ',$item->Content)[3],4))),
                         'longitude' => $this->convertDMSToDecimal(str_replace('*',' ',substr(explode(' ',$item->Content)[4],5))),
