@@ -3,7 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use PDO;
+use Illuminate\Support\Facades\Http;
 use SimpleXMLElement;
 
 class getsms extends Command
@@ -75,12 +75,91 @@ class getsms extends Command
 
         curl_close($curl2);
 
-        foreach(simplexml_load_string($content)->Messages->Message as $item){
-            if($item->Phone == '+6281295369449'){
-                dd($item);
+        foreach (simplexml_load_string($content)->Messages->Message as $item) {
+            if ($item->Phone == '+6281295369449') {
+                if(strlen($item->Content) > 2){
+                    $response = Http::post('http://localhost:8000/api/lantern', [
+                        'device_imei' => (String) $item->Phone,
+                        'latitude' => $this->convertDMSToDecimal(str_replace('*',' ',substr(explode(' ',$item->Content)[3],4))),
+                        'longitude' => $this->convertDMSToDecimal(str_replace('*',' ',substr(explode(' ',$item->Content)[4],5))),
+                        'bat_lvl' => substr(explode(' ',$item->Content)[8], 0, -1),
+                        'created_at' => (String) $item->Date,
+                    ]);
+                    $this->line($response->body());
+                }
             }
         }
 
         return 0;
+    }
+
+    public function convertDMSToDecimal($latlng) {
+        $valid = false;
+        $decimal_degrees = 0;
+        $degrees = 0; $minutes = 0; $seconds = 0; $direction = 1;
+    
+        $num_periods = substr_count($latlng, '.');
+        if ($num_periods > 1) {
+            $temp = preg_replace('/\./', ' ', $latlng, $num_periods - 1); 
+            $temp = trim(preg_replace('/[a-zA-Z]/','',$temp)); 
+            $chunk_count = count(explode(" ",$temp));
+            if ($chunk_count > 2) {
+                $latlng = preg_replace('/\./', ' ', $latlng, $num_periods - 1); 
+            } else {
+                $latlng = str_replace("."," ",$latlng); 
+            }
+        }
+        
+        $latlng = trim($latlng);
+        $latlng = str_replace("º"," ",$latlng);
+        $latlng = str_replace("°"," ",$latlng);
+        $latlng = str_replace("'"," ",$latlng);
+        $latlng = str_replace("\""," ",$latlng);
+        $latlng = str_replace("  "," ",$latlng);
+        $latlng = substr($latlng,0,1) . str_replace('-', ' ', substr($latlng,1)); 
+    
+        if ($latlng != "") {
+            if (preg_match("/^([nsewoNSEWO]?)\s*(\d{1,3})\s+(\d{1,3})\s*(\d*\.?\d*)$/",$latlng,$matches)) {
+                $valid = true;
+                $degrees = intval($matches[2]);
+                $minutes = intval($matches[3]);
+                $seconds = floatval($matches[4]);
+                if (strtoupper($matches[1]) == "S" || strtoupper($matches[1]) == "W")
+                    $direction = -1;
+            }
+            elseif (preg_match("/^(-?\d{1,3})\s+(\d{1,3})\s*(\d*(?:\.\d*)?)\s*([nsewoNSEWO]?)$/",$latlng,$matches)) {
+                $valid = true;
+                $degrees = intval($matches[1]);
+                $minutes = intval($matches[2]);
+                $seconds = floatval($matches[3]);
+                if (strtoupper($matches[4]) == "S" || strtoupper($matches[4]) == "W" || $degrees < 0) {
+                    $direction = -1;
+                    $degrees = abs($degrees);
+                }
+            }
+            if ($valid) {
+                $decimal_degrees = ($degrees + ($minutes / 60) + ($seconds / 3600)) * $direction;
+            } else {
+                if (preg_match("/^([nsewNSEW]?)\s*(\d+(?:\.\d+)?)$/",$latlng,$matches)) {
+                    $valid = true;
+                    if (strtoupper($matches[1]) == "S" || strtoupper($matches[1]) == "W")
+                        $direction = -1;
+                    $decimal_degrees = $matches[2] * $direction;
+                }
+                elseif (preg_match("/^(-?\d+(?:\.\d+)?)\s*([nsewNSEW]?)$/",$latlng,$matches)) {
+                    $valid = true;
+                    if (strtoupper($matches[2]) == "S" || strtoupper($matches[2]) == "W" || $degrees < 0) {
+                        $direction = -1;
+                        $degrees = abs($degrees);
+                    }
+                    $decimal_degrees = $matches[1] * $direction;
+                }
+            }
+        }
+        if ($valid) {
+            return $decimal_degrees;
+        } else {
+            return false;
+        }
     }
 }
