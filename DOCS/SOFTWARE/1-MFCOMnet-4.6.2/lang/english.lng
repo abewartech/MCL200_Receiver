@@ -1,0 +1,325 @@
+0	English
+1	OK
+2	Cancel
+3	Error
+4	Confirm
+5	Write
+6	Writing
+7	Finish
+8	Read
+9	
+10	MFCOM .net
+11	LVD:
+12	Status/alarms
+13	Flasher
+14	Read beacon
+15	MF12
+16	SleepV2
+17	Open file
+18	Help
+19	Exit
+20	Boost Voltage
+21	Flashes
+22	Communications
+23	Temperature
+24	Night/ Day
+25	Solar cells high consumption
+26	LED Ring low consumption
+27	Low battery voltage
+28	LED Ring high consumption
+29	Setup
+30	Language
+31	Port :
+32	Display
+33	Current conversion factor
+34	Model
+35	FA Factor :
+36	FB Factor :
+37	FC Factor :
+38	Save file
+39	Max. GPS ON:
+40	ID number
+41	Write beacon
+42	Firmware
+43	 Flashes
+44	Shipwreck mode
+45	Max. GPS OFF:
+46	Remote control
+47	 Daylight sensor
+48	  Daylight sensor
+49	Beacon type:
+50	Floating Voltage:
+51	Edit Flashes
+52	Daylight sensor
+53	Catalepsy
+54	DAC
+55	Lux.
+56	Light level Beacon ON :
+57	Battery test time :
+58	GSM module active
+59	Remote control
+60	Battery test
+61	Start MF12
+62	Lux.
+63	Light level Beacon OFF :
+64	 Power
+65	Power
+66	Sun radiation :
+67	Min. satellites synchronism :
+68	 Edit flashes
+69	Min leds consumption :
+70	Max. leds consumption:
+71	Floating min. voltage :
+72	Led light intensity :
+73	Light type:
+74	Min. Quality GPS synchronism :
+75	Force day mode
+76	 Configuration
+77	 Display
+78	V
+79	V.
+80	Regulation mode :
+81	%
+82	Communications
+83	GPS synchronism:
+84	C
+85	A
+86	A
+87	V
+88	%
+89	A
+90	A
+91	A
+92	Identifier
+93	Aut 03
+94	Charging time :
+95	6V autodetect :
+96	Battery voltage sampling:
+97	Autosleep time :
+98	Battery alarm ON :
+99	Night mode
+100	GPS Debug ON
+101	Enable debug AIS
+102	Led instant current
+103	Temperature
+104	Absortion time
+105	Battery charger PWM
+106	Value 3 in formula
+107	Value 2 in formula
+108	Value 1 in formula
+109	Battery charging phase
+110	Solar panel current
+111	Battery voltage
+112	Manufacturing year
+113	Firmware version
+114	24V autodetect :
+115	Battery alarm OFF :
+116	Min.
+117	Infrared time :
+118	Bluetooth wake up time:
+119	 LEDS PWM
+120	Sleep time
+121	Read
+122	LEDs current
+123	Daylight sensor delay :
+124	Maximum Panel Current :
+125	Flash-LVD Origin :
+126	Bluetooth wake up interval :
+127	Min.
+128	Sync pulse time :
+129	Cable Sync Offset :
+130	Manufacturing week
+131	Send user flashes
+132	V.
+133	Night Attenuation :
+134	IR Remote Password :
+135	Read
+136	s.
+137	Manufacturer number
+138	Flashes table
+139	Hardware
+140	s.
+141	Pr/day
+142	Tel Port function :
+143	GPS sync offset:
+144	s.
+145	Communications
+146	Aut 04
+147	A.
+148	A.
+149	V.
+150	LED remnant light intensity :
+151	%
+152	Duration IR remote forced Day /Night:
+153	Temperature alarm :
+154	V.
+155	Min.
+156	s.
+157	Min.
+158	V.
+159	s.
+160	V.
+161	Voltage fine adjust :
+162	V.
+163	Selected flash :
+164	s.
+165	s.
+166	TO.
+167	Selected flash :
+168	s.
+169	ms.
+170	%
+171	%
+172	s.
+173	° C
+174	uc a / d
+175	Brightness level :
+176	Overvoltage battery
+177	Exit
+178	Delete
+179	Terminal
+180	
+181	
+182	New
+183	Open
+184	Save
+185	Read flashes
+186	Write flashes
+187	Close
+188	Edit flashes
+189	
+190	
+191	
+192	
+193	
+194	
+195	
+196	
+197	
+198	
+199	
+200	Do you want to write the device?
+201	Error. Missing language file
+202	Language folder can not be found. The default settings will be applied
+203	The type of device could not be detected
+204	Success saving.
+205	The Help content cannot be displayed. No help associated with this flasher.
+206	 MF mode day: ok
+207	 MF mode day: failure
+208	 MF mode catalepsy: ok
+209	 MF mode catalepsy: failure
+210	 AIS debug mode: On
+211	 AIS debug mode: failure
+212	The ais debug mode has been activated. This program will no longer communicate with the device. Start HyperTerminal at 9600bps to see communications
+213	Error when trying to activate the debug mode of the device
+214	 MF mode night: ok
+215	 MF mode night: failure
+216	 MF in normal mode: ok
+217	 MF in normal mode: failure
+218	The device in test mode hasn't been configured
+219	GPS in debug mode. You can view the frames in the next window.
+220	Operation failed
+221	Operation result: ok
+222	Operation result: failure
+223	Night
+224	Day
+225	Gross
+226	Absorption
+227	Floatation
+228	Unknown
+229	initializing flasher
+230	Writting error in the position:
+231	End of flasher initialization 
+232	Recording Firmware
+233	Reset flasher
+234	Waiting for signature verification
+235	Sending
+236	Waiting plot:
+237	Error, too many retries per frame
+238	Waiting advance of the plot:
+239	End of recording
+240	      *** Manufacturer Version ***
+241	Enter your version
+242	Confirmed version change
+243	
+244	
+245	
+246	
+247	
+248	
+249	
+250	You must select a valid serial port
+251	
+252	
+253	
+254	
+255	
+256	
+257	
+258	
+259	
+260	File stored successfully
+261	Transmission errors. Do you want to continue?
+262	Information read successfully.
+263	Writting error in position:
+264	Writting errors on the flashes table
+265	Recording flashes correct
+266	
+267	
+268	
+269	
+270	You must select a valid serial port
+271	No connection to the device
+272	
+273	
+274	
+275	
+276	
+277	
+278	
+279	
+280	ON Night
+281	24 hours
+282	CA30-LS03
+283	CA32-LS04
+284	Shipwreck
+285	Residual light
+286	Disconnected
+287	MFGSM
+288	AIS-RS232
+289	RS485
+290	AIS RS422
+291	No self-powered
+292	MCL200
+293	MCL250
+294	MBL400
+295	BLUETOOTH
+296	GSM+Display
+297	
+298	
+299	
+300	The last connection port doesn't exist. Please, check the communications settings.
+301	Resetting to default parameters.
+302	Default parameters set correctly.
+303	Failed to set default parameters.
+304	The default settings have been restored properly.
+305	Error, memory deleted. There are no parameters to restore.
+306	Failed to restore the default parameters.
+307	Value exceeds the limit:
+308	
+309	
+310	Enable message 21 AIS:
+311	Enable message 6 AIS:
+312	Update message 6:
+313	Open attachment
+314	Save attachment
+315	Open configuration
+316	Before opening a file you must read the device parameters
+317	The file does not have the expected extension
+318	Incomplete, corrupt or invalid file
+319	Checksum error. Corrupt file.
+320	Import done correctly
+321	Failure to extract information
+322	Error when exporting the configuration file
+323	Error processing information	
+

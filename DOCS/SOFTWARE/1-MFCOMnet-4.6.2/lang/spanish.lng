@@ -1,0 +1,325 @@
+0	Spanish
+1	OK
+2	Cancelar
+3	Error
+4	Confirmar
+5	Escribir
+6	Escribiendo
+7	Finalizado
+8	Leer
+9	
+10	MFCOM .net  
+11	LVD :
+12	Estado/alarmas
+13	Destellador
+14	Leer baliza
+15	MF12
+16	SleepV2
+17	Abrir fichero
+18	Ayuda
+19	Salir
+20	V.Boost :
+21	Destellos
+22	Comunicaciones  
+23	Temperatura
+24	Noche/Día
+25	Consumo alto panel solar
+26	Consumo bajo corona leds
+27	Tension bateria baja
+28	Sobreconsumo corona leds
+29	 Configuración 
+30	Lenguaje:
+31	Puerto :
+32	Visualización
+33	Factor conversión corriente
+34	Modelo
+35	Factor FB :
+36	Factor FC :
+37	Factor FA :
+38	Guardar fichero
+39	Máx. GPS ON :
+40	Numero ID
+41	Escribir baliza
+42	Firmware
+43	 Destellos 
+44	Modo naufragio
+45	Máx. GPS OFF :
+46	Telemando
+47	 Fotocélula
+48	  Fotocelula  
+49	Tipo baliza :
+50	V. Flotación :
+51	 Editar  ritmos
+52	Fotocélula
+53	Catalepsia
+54	DAC
+55	Lux.
+56	Nivel luz  baliza ON :
+57	Tiempo test bateria :
+58	Módulo GSM activo   
+59	Telemando
+60	Test batería
+61	Iniciar MF12
+62	Lux.
+63	Nivel luz  baliza OFF :
+64	 Alimentación 
+65	Alimentación
+66	Radiación solar :
+67	Mín. satélites sincronismo :
+68	 Editar  ritmos
+69	Min. consumo leds :
+70	Máx. consumo leds :
+71	V. min. flotación :
+72	Intensidad LED :
+73	Tipo de luz :
+74	Mín. calidad GPS sincronismo :
+75	Forzar apagado
+76	 Configuración 
+77	 Visualización 
+78	V
+79	V.
+80	Tipo de regulación :
+81	%
+82	Comunicaciones
+83	Sincronismo GPS :
+84	C
+85	A
+86	A
+87	V
+88	%
+89	A
+90	A
+91	A
+92	Identificación
+93	Aut 03
+94	Tiempo absorción bat. :
+95	Autodetección 6V :
+96	Muestreo V. batería :
+97	Tiempo autosleep :
+98	Alarma batería ON :
+99	Forzar encendido
+100	Debug GPS ON
+101	Activar debug AIS
+102	Corriente actual leds
+103	Temperatura
+104	Tiempo en absorción
+105	PWM carga de batería
+106	Valor 3 en formula
+107	Valor 2 en formula
+108	Valor 1 en formula
+109	Fase de carga en batería
+110	Corriente panel solar
+111	Tensión de bateria
+112	Año fabricación
+113	Versión firmware
+114	Autodetección 24V :
+115	Alarma batería OFF :
+116	Min.
+117	Tiempo mando infrarrojos :
+118	Duración wake up bluetooth :
+119	PWM aplicado LEDS
+120	Minutos hibernación
+121	Leer
+122	Corriente de leds
+123	Retardo fotocelula :
+124	Max. corriente de panel :
+125	Origen destello-LVD :
+126	Intervalo wake up bluetooth :
+127	Min.
+128	Tiempo pulso sincronismo :
+129	Offset sincronismo cable :
+130	Semana fabricación
+131	Transmitir usuario
+132	V.
+133	Atenuación nocturna :
+134	Clave mando infrarrojos :
+135	Leer
+136	s.
+137	Número fabricación
+138	Tabla ritmos
+139	Hardware
+140	s.
+141	Hp/día
+142	Función puerto tel :
+143	Offset sincronismo GPS :
+144	s.
+145	Comunicaciones
+146	Aut 04
+147	A.
+148	A.
+149	V.
+150	Intensidad LED residual :
+151	%
+152	Duración telemando IR forzado día / noche:
+153	Temperatura alarma :
+154	V.
+155	Min.
+156	s.
+157	Min.
+158	V.
+159	s.
+160	V.
+161	Ajuste fino tensión batería :
+162	V.
+163	Destello seleccionado :
+164	s.
+165	s.
+166	A.
+167	Destello seleccionado :
+168	s.
+169	ms.
+170	%
+171	%
+172	s.
+173	º C
+174	uc a/d
+175	Nivel de luminosidad :
+176	Sobretensión batería
+177	Salir
+178	Borrar
+179	Terminal
+180	
+181	
+182	Nuevo
+183	Abrir
+184	Guardar
+185	Leer ritmos
+186	Escribir ritmos
+187	Cerrar
+188	Edición de ritmos
+189	
+190	
+191	
+192	
+193	
+194	
+195	
+196	
+197	
+198	
+199	
+200	¿Desea escribir el destellador?
+201	Error. Falta el fichero de idioma
+202	No se encuentra la carpeta de idiomas, se aplicará la configuración por defecto
+203	No se ha podido detectar el tipo de dispositivo
+204	Éxito al guardar.
+205	No se puede mostrar el contenido de la Ayuda. No hay Ayuda asociada a este destellador.
+206	 MF en modo día: ok
+207	 MF en modo día: fallo
+208	 MF en modo catalépsia: ok
+209	 MF en modo catalépsia: fallo
+210	 Modo AIS debug: On
+211	 Modo AIS debug: fallo
+212	El modo ais debug ha sido activado. Este programa dejará de comunicar con el dispositivo. Inicie hyperterminal a 9600bps para ver las comunicaciones
+213	Error al intentar activar el modo debug del dispositivo
+214	 MF en modo noche: ok
+215	 MF en modo noche: fallo
+216	 MF en modo normal: ok
+217	 MF en modo normal: fallo
+218	No se ha podido configurar en modo test el dispositivo
+219	GPS en modo debug. Puede visualizar las tramas en la siguiente ventana.
+220	Error en la operación
+221	 Resultado de la operación: ok
+222	 Resultado de la operación: fallo
+223	Noche
+224	Día
+225	Gruesa
+226	Absorción
+227	Flotación
+228	Desconocido
+229	Inicializando destellador
+230	Error de escritura en la posición: 
+231	Fin inicialización del destellador
+232	Grabando Firmware
+233	Resetear destellador
+234	Esperando comprobacion de firma
+235	Enviando 
+236	Esperando trama: 
+237	Error, demasiados reintentos por trama
+238	Esperando avance de la trama: 
+239	Fin de grabación
+240	      *** Versión fabricante ***
+241	Introduzca su versión
+242	Confirmado el cambio de versión
+243	
+244	
+245	
+246	
+247	
+248	
+249	
+250	Debe seleccionar un puerto serie válido
+251	
+252	
+253	
+254	
+255	
+256	
+257	
+258	
+259	
+260	Fichero almacenado con éxito
+261	 errores de transmisión. ¿Continuar?
+262	Información leida con éxito.
+263	Error de escritura en posición: 
+264	 errores de escritura en la tabla de ritmos.
+265	Grabación de ritmos correcta
+266	
+267	
+268	
+269	
+270	Debe seleccionar un puerto serie válido
+271	No existe conexión con el dispositivo
+272	
+273	
+274	
+275	
+276	
+277	
+278	
+279	
+280	ON Noche
+281	24 Horas
+282	CA30-LS03
+283	CA32-LS04
+284	Naufragio
+285	Luz residual
+286	Desconectado
+287	MFGSM
+288	AIS-RS232
+289	RS485
+290	AIS RS422
+291	No autoalimentada
+292	MCL200
+293	MCL250
+294	MBL400
+295	BLUETOOTH
+296	MFGSM DISPLAY
+297	
+298	
+299	
+300	El último puerto de conexión ha dejado de existir. Revise la configuración de comunicaciones.
+301	Reseteando a parámetros por defecto.
+302	Se han establecido los parámetros por defecto de forma correcta.
+303	Error al establecer los parámetros por defecto.
+304	Los parámetros por defecto han sido restaurados de forma correcta.
+305	Error, memoria borrada. No hay parámetros que restaurar.
+306	Error al restaurar los parámetros por defecto.
+307	Valor excede el límite:
+308	
+309	
+310	Enable mensaje 21 AIS :
+311	Enable mensaje 6 AIS :
+312	Actualización mensaje 6 :
+313	Abrir adjunto
+314	Guardar adjunto
+315	Abrir configuración
+316	Antes de abrir un fichero debe realizar una lectura de los parámetros del dispositivo
+317	El fichero no tiene la extensión esperada
+318	Fichero incompleto, corrupto o no válido
+319	Error de checksum. Fichero corrupto.
+320	Importación realizada de forma correcta
+321	Error al extraer la información
+322	Error al exportar el fichero de configuración
+323	Error al procesar la información
+

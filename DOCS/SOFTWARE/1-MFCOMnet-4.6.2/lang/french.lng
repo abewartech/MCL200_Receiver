@@ -1,0 +1,325 @@
+0	French
+1	OK
+2	Annuler
+3	Erreur
+4	Confirmer
+5	Écrire
+6	Écriture
+7	Finalisé
+8	Lire
+9	
+10	MFCOM .net
+11	LVD:
+12	Etat/alarmes
+13	Eclipseur
+14	Lire balise
+15	MF12
+16	SleepV2
+17	Ouvrir fichier
+18	Aide
+19	Sortir
+20	T. Boost:
+21	Eclats
+22	Communications
+23	Température
+24	Nuit/Jour
+25	Haute consommation Panneau solaire
+26	Basse consommation couronne de LED
+27	Basse tension de batterie
+28	Surconsommation couronne de LED
+29	Configuration
+30	Langue
+31	Port :
+32	Affichage
+33	Facteur conversion courant
+34	Modèle
+35	Facteur FA :
+36	Facteur FB :
+37	Facteur FC :
+38	Sauvegarder le fichier
+39	Max. GPS ON:
+40	Numéro ID
+41	Écrire balise
+42	Firmware
+43	 Eclats
+44	Mode Naufrage
+45	Max. GPS OFF:
+46	Télécommande
+47	 Photocellule
+48	  Photocellule
+49	Type balise :
+50	T. Flottante:
+51	Editer rythmes
+52	Photocellule
+53	Catalepsie
+54	DAC
+55	Lux.
+56	Niveau feu ON :
+57	Temps test batterie :
+58	Module GSM  actif
+59	Télécommande
+60	Test batterie :
+61	Démarrer MF12
+62	Lux.
+63	Niveau feu OFF :
+64	 Alimentation
+65	Alimentation
+66	Radiation solaire :
+67	Min. satellites synchronisme :
+68	 Editer rythmes
+69	Consommation min. LEDs:
+70	Consommation max. LEDs:
+71	T. min. flottante :
+72	Intensité LED :
+73	Type de feu:
+74	Qualité min. Synchronisme GPS :
+75	Forcer mode Jour
+76	 Configuration
+77	Affichage
+78	T
+79	T.
+80	Mode de régulation :
+81	%
+82	Communications
+83	Synchronisme GPS :
+84	C
+85	A
+86	A
+87	V
+88	%
+89	A
+90	A
+91	A
+92	Identification
+93	Auto 03
+94	Temps absorption bat.:
+95	Auto-détection 6V :
+96	Echantillonage T. Batterie :
+97	Temps auto- repos :
+98	Alarme batterie ON :
+99	Forcer mode Nuit
+100	Déboguer GPS ON
+101	Activer déboguer AIS
+102	Courant actuel LEDs
+103	Température
+104	Temps en absorption
+105	Charge de batterie PWM
+106	Valeur 3 en formule
+107	Valeur 2 en formule
+108	Valeur 1 en formule
+109	Phase de charge en batterie
+110	Courant module solaire
+111	Tension batterie
+112	Année fabrication
+113	Version firmware
+114	Auto-détection 24V :
+115	Alarme batterie OFF :
+116	Min.
+117	Temps commande infrarouge :
+118	Durée réveil bluetooth :
+119	PWM appliqué LEDs
+120	Temps en repos
+121	Lire
+122	Courant de LEDs
+123	Retard photocellule :
+124	Courant max. Module solaire :
+125	Origine Eclat-LVD :
+126	Intervalle réveil bluetooth :
+127	Min.
+128	Temps impulsion synchronisme :
+129	Offset cable synchronisme :
+130	Semaine fabrication
+131	Transmettre usager
+132	V.
+133	Atténuation nocturne :
+134	Mot de passe télécommande infrarouge :
+135	Lire
+136	s.
+137	Numéro Fabrication
+138	Tableau de rythmes
+139	Hardware
+140	s.
+141	Hp/Jour
+142	Fonction Port Tel.:
+143	Offset synchronisme GPS:
+144	s.
+145	Communications
+146	Auto 04
+147	A.
+148	A.
+149	V.
+150	Intensité LED résiduel :
+151	%
+152	Durée télécommande IR forcé jour/nuit :
+153	Alarme température :
+154	V.
+155	Min.
+156	s.
+157	Min.
+158	V.
+159	s.
+160	V.
+161	Réglage tension :
+162	V.
+163	Eclat sélectionné :
+164	s.
+165	s.
+166	A.
+167	Eclat sélectionné :
+168	s.
+169	ms.
+170	%
+171	%
+172	s.
+173	º C
+174	uc a/d
+175	Niveau de luminosité :
+176	Surtension de la batterie
+177	Sortir
+178	Supprimer
+179	Terminal
+180	
+181	
+182	Nouveau
+183	Ouvrir
+184	Sauvegarder
+185	Lire rythmes
+186	Écrire rythmes
+187	Fermer
+188	Editer rythmes
+189	
+190	
+191	
+192	
+193	
+194	
+195	
+196	
+197	
+198	
+199	
+200	Désirez-vous écrire l'éclipseur?
+201	Erreur. Le fichier est manquant.
+202	Le dossier de langues est introuvable, la configuration par défaut s'appliquera
+203	Le type de dispositif n'a pas pu être détecté
+204	Sauvegarde réussie.
+205	Le contenu de l'Aide ne peut pas être affiché. Il n'y a pas d'aide associée à cet éclipseur.
+206	MF en mode jour: OK
+207	MF en mode jour: faille
+208	MF mode catalepsie: OK
+209	MF mode catalepsie: Faille
+210	AIS debug: On
+211	 AIS debug: erreur
+212	Le mode AIS debug a été activé. Ce programme arrêtra de communiquer avec le dispositif. Démarrer l'hyperterminal a 9600bps pour voir les communications
+213	Erreur à essayer d'activer le mode debug du dispositif
+214	MF mode nuit: Ok
+215	MF mode nuit: Faille
+216	MF en mode normal: OK
+217	MF en mode normal: Faille
+218	Le dispositif en mode test n'a pas puêtre configuré
+219	GPS en mode debug. Vous pouvez visualiser les trames dans la fenêtre suivante.
+220	Erreur durant l'opération
+221	Résultat de l'opération: OK
+222	Résultat de l'opération: faille
+223	Nuit
+224	Jour
+225	Brut
+226	Absorption
+227	Flottation
+228	Inconnu
+229	Initialisation éclipseur
+230	Erreur d'écriture dans la position:
+231	Fin d'initialisation de l'éclipseur
+232	Ebregirant firmware
+233	Reset de l'éclipseur
+234	En attente de la vérification de la signature
+235	Envoi
+236	En attente de la trame:
+237	Erreur, trop d'essais par trame
+238	En attente de l'avancement de la trame:
+239	Fin d'enregistrement
+240	      *** Version fabricant ***
+241	Introduire sa version
+242	Changement de version confirmé
+243	
+244	
+245	
+246	
+247	
+248	
+249	
+250	Vous devez sélectionner un port série valide
+251	
+252	
+253	
+254	
+255	
+256	
+257	
+258	
+259	
+260	Fichier stocké avec succès
+261	Erreurs de transmission. Continuer?
+262	Information lue avec succès.
+263	Erreur d'écriture dans la position:
+264	Erreurs d'écriture dans la table de rythmes
+265	Enregistrement de rythmes correct
+266	
+267	
+268	
+269	
+270	Vous devez sélectionner un port série valide
+271	Pas de connection au dispositif
+272	
+273	
+274	
+275	
+276	
+277	
+278	
+279	
+280	ON Nuit
+281	24 heures
+282	CA30-LS03
+283	CA32-LS04
+284	Naufrage
+285	Lumière résiduelle
+286	Déconnecté
+287	MFGSM
+288	AIS-RS232
+289	RS485
+290	AIS RS422
+291	Non auto-alimenté
+292	MCL200
+293	MCL250
+294	MBL400
+295	BLUETOOTH
+296	GSM+Display
+297	
+298	
+299	
+300	Le dernier port de connection n'existe plus. Réviser la configuration de communications.
+301	Réinitialisation des paramètres par défaut.
+302	Les paramètres par défaut définis correctement.
+303	Impossible de définir les paramètres par défaut.
+304	Les paramètres par défaut ont été restaurés correctement.
+305	La mémoire d'erreur supprimée. Il n'y a pas de paramètres à restaurer.
+306	Impossible de restaurer les paramètres par défaut.
+307	Valeur dépasse la limite:
+308
+309	
+310 Activer le message 21 AIS:
+311 Activer le message 6 AIS:
+312 Message de mise à jour 6:
+313 Pièce jointe ouverte
+314 Sauvegarder pièce jointe
+315 Configuration ouverte
+316 Avant d'ouvrir un fichier, vous devez lire les paramètres de l'appareil.
+317 Le fichier n'a pas l'extension attendue
+318 Fichier incomplet, corrompu ou invalide
+319 Erreur de somme de contrôle. Fichier corrompu.
+320 Import effectué correctement
+321 Impossible d'extraire des informations
+322 Erreur lors de l'exportation du fichier de configuration
+323 Information de traitement d'erreur
+
